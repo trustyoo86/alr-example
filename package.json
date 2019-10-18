@@ -1,0 +1,19 @@
+{
+  "name": "alr-example",
+  "version": "0.0.1",
+  "description": "apollo-link-rest example using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyoo86/alr-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trustyoo86/alr-example/issues"
+  },
+  "homepage": "https://github.com/trustyoo86/alr-example#readme"
+}
