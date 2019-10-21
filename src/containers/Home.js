@@ -24,9 +24,14 @@ const Home = () => {
         {
           ({ loading, data }) => {
             if (loading) { return <p>Loading...</p>; }
+            const { person } = data;
             return (
               <div>
-                { JSON.stringify(data.person) }
+                {
+                  person.map((item) => {
+                    return <p key={JSON.stringify(item)}>{JSON.stringify(item)}</p>;
+                  })
+                }
               </div>
             );
           }
