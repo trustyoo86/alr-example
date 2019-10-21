@@ -28,4 +28,4 @@ Open `chrome dev tools` console, you can see the data `person`.
 
 ## Contributions & Issues
 
-If you want to pull request, for this [repo](https://github.com/trustyoo86/alr-example).
+If you want to pull request, fork this [repo](https://github.com/trustyoo86/alr-example) and pull request.
