@@ -7,13 +7,16 @@
     "commonjs": true,
     "node": true
   },
-  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
   "parserOptions": {
     "allowImportExportEverywhere": true,
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
+      "jsx": true
     }
   },
   "globals": {
@@ -86,5 +89,17 @@
     "object-shorthand": "error",
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
     "no-duplicate-imports": "error",
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-boolean-value": "error",
+    "react/jsx-curly-spacing": ["error", "never"],
+    "react/jsx-equals-spacing": ["error", "never"],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/self-closing-comp": "error"
   }
 }
