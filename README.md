@@ -4,7 +4,7 @@
 
 The issue that our team is a lot of getting data from rest api.
 A lot of data from rest api isn't neccessary for development.
-So I considered solve this issue effciently, I found `apollo-link-rest` from google.
+So I considered solve this issue effciently, I found `apollo-link-rest` plugin from google.
 I thought it is useful to solving issue, So I developed this example.
 I refered to [apollo documentation](https://www.apollographql.com/docs/link/links/rest/)
 
